@@ -25,7 +25,7 @@ const fetchCall = () => {
         console.log(articleData);
         setArticles(articleData);
       } else {
-        console.log("qualosa è andato storto con la chiamata");
+        console.log("qualcosa è andato storto con la chiamata");
       }
     } catch (error) {
       console.log(error);
